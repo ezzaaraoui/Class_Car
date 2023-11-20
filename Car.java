@@ -40,6 +40,6 @@ public class Car {
     }
 
     public void changeGear(){
-        System.out.println("Car braking");
+        System.out.println("Car changing gears");
     }
 }
