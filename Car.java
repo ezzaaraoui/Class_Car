@@ -6,6 +6,14 @@ public class Car {
     short enginePower ;
     String name ;
 
+    public Car(short speed , String color , boolean nitroSpeed , String model , short enginePower , String name){
+        this.speed = speed;
+        this.color = color;
+        this.nitroSpeed = nitroSpeed;
+        this.model=model ;
+        this.enginePower = enginePower;
+        this.name = name;
+    }
 
     public void turn(){
         System.out.println("Car turn");
